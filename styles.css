@@ -366,7 +366,7 @@ p {
 }
 
 .market-layout {
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .market-panel {
@@ -375,6 +375,10 @@ p {
 
 .market-panel.accent {
   border-color: rgba(200, 95, 80, 0.35);
+}
+
+.market-panel.korea {
+  border-color: rgba(181, 139, 45, 0.42);
 }
 
 .market-kicker,
@@ -401,6 +405,44 @@ ul {
   margin: 0 auto;
   max-width: 980px;
   padding: 0;
+}
+
+.ai-ops {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.72), rgba(246, 250, 249, 0.96)),
+    #fbfdfd;
+}
+
+.ai-grid {
+  align-items: center;
+}
+
+.ai-copy {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: 0 14px 42px rgba(17, 33, 45, 0.08);
+  padding: clamp(22px, 4vw, 32px);
+}
+
+.ai-copy p {
+  margin-bottom: 22px;
+}
+
+.capability-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.capability-row span {
+  background: #e8f2f1;
+  border: 1px solid #d3e4e2;
+  border-radius: 8px;
+  color: var(--teal-dark);
+  font-size: 13px;
+  font-weight: 780;
+  padding: 9px 11px;
 }
 
 .timeline li {
@@ -435,7 +477,7 @@ ul {
 }
 
 .pricing-grid {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .price-card {
@@ -450,7 +492,7 @@ ul {
 }
 
 .price-card h3 {
-  font-size: 42px;
+  font-size: clamp(30px, 3vw, 42px);
   margin-bottom: 0;
 }
 
