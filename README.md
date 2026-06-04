@@ -5,13 +5,20 @@ Static landing page prototype and planning package for a multilingual internatio
 ## What this includes
 
 - Landing page: `index.html`, `styles.css`, `script.js`
+- Market landing pages:
+  - `pages/executive-checkup.html`
+  - `pages/russian-specialist.html`
+  - `pages/korean-visitor-checkup.html`
 - Hero image asset: `assets/hero-concierge.png`
 - GitHub Pages deployment branch: `gh-pages`
 - Planning documents:
   - `docs/business-plan.md`
   - `docs/financial-model.md`
+  - `docs/growth-experiments.md`
+  - `docs/hospital-bd-checklist.md`
   - `docs/operations-sop.md`
   - `docs/pitch-outline.md`
+  - `docs/service-agreement-outline.md`
 
 ## Local preview
 
