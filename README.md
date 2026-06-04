@@ -16,6 +16,7 @@ Static landing page prototype and planning package for a multilingual internatio
 - GitHub Pages deployment branch: `gh-pages`
 - Planning documents:
   - `docs/business-plan.md`
+  - `docs/competitor-research-report.md`
   - `docs/financial-model.md`
   - `docs/growth-experiments.md`
   - `docs/hospital-bd-checklist.md`
