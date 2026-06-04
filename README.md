@@ -9,6 +9,9 @@ Static landing page prototype and planning package for a multilingual internatio
   - `pages/executive-checkup.html`
   - `pages/russian-specialist.html`
   - `pages/korean-visitor-checkup.html`
+  - `pages/partners.html`
+  - `pages/privacy.html`
+  - `pages/terms.html`
 - Hero image asset: `assets/hero-concierge.png`
 - GitHub Pages deployment branch: `gh-pages`
 - Planning documents:
@@ -16,9 +19,12 @@ Static landing page prototype and planning package for a multilingual internatio
   - `docs/financial-model.md`
   - `docs/growth-experiments.md`
   - `docs/hospital-bd-checklist.md`
+  - `docs/intake-form-template.md`
   - `docs/operations-sop.md`
   - `docs/pitch-outline.md`
+  - `docs/quote-template.md`
   - `docs/service-agreement-outline.md`
+- SEO helpers: `robots.txt`, `sitemap.xml`
 
 ## Local preview
 
