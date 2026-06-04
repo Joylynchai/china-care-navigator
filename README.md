@@ -6,7 +6,7 @@ Static landing page prototype and planning package for a multilingual internatio
 
 - Landing page: `index.html`, `styles.css`, `script.js`
 - Hero image asset: `assets/hero-concierge.png`
-- GitHub Pages workflow: `.github/workflows/pages.yml`
+- GitHub Pages deployment branch: `gh-pages`
 - Planning documents:
   - `docs/business-plan.md`
   - `docs/financial-model.md`
@@ -19,7 +19,11 @@ Open `index.html` directly in a browser.
 
 ## GitHub Pages
 
-This repository includes a GitHub Actions workflow that publishes the site root to GitHub Pages when changes are pushed to `main`.
+The public site is deployed from the `gh-pages` branch.
+
+Current public URL:
+
+https://joylynchai.github.io/china-care-navigator/
 
 ## Compliance note
 
