@@ -1,5 +1,7 @@
 screenshots/
 tmp-edge/
 tmp-edge-mobile/
+outputs/
+downloads/artifact-build-manifest.json
 .DS_Store
 Thumbs.db

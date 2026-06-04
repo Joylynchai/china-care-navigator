@@ -5,6 +5,14 @@ Static landing page prototype and planning package for a multilingual internatio
 ## What this includes
 
 - Landing page: `index.html`, `styles.css`, `script.js`
+- HTML report center:
+  - `reports/index.html`
+  - `reports/business-plan.html`
+  - `reports/financial-model.html`
+  - `reports/operations-sop.html`
+  - `reports/competitor-research-report.html`
+- Downloadable deck:
+  - `downloads/chinacare-navigator-bp.pptx`
 - Market landing pages:
   - `pages/executive-checkup.html`
   - `pages/russian-specialist.html`
@@ -26,6 +34,15 @@ Static landing page prototype and planning package for a multilingual internatio
   - `docs/quote-template.md`
   - `docs/service-agreement-outline.md`
 - SEO helpers: `robots.txt`, `sitemap.xml`
+
+## Public report links
+
+- Reports center: https://joylynchai.github.io/china-care-navigator/reports/
+- Business plan: https://joylynchai.github.io/china-care-navigator/reports/business-plan.html
+- Financial model: https://joylynchai.github.io/china-care-navigator/reports/financial-model.html
+- Operations SOP: https://joylynchai.github.io/china-care-navigator/reports/operations-sop.html
+- Competitor research: https://joylynchai.github.io/china-care-navigator/reports/competitor-research-report.html
+- BP PPTX download: https://joylynchai.github.io/china-care-navigator/downloads/chinacare-navigator-bp.pptx
 
 ## Local preview
 

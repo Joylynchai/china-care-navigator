@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>财务模型 | ChinaCare Navigator</title>
+    <meta name="description" content="产品单价、成本结构、单单经济、盈亏平衡和 12 个月预测。">
+    <link rel="stylesheet" href="../styles.css">
+  </head>
+  <body class="report-page">
+    <header class="site-header" data-elevated="false">
+      <a class="brand" href="../index.html" aria-label="ChinaCare Navigator home">
+        <span class="brand-mark" aria-hidden="true">C</span>
+        <span><strong>ChinaCare</strong><small>Navigator</small></span>
+      </a>
+      <nav class="nav-links" aria-label="Report navigation">
+        <a href="index.html">Reports</a>
+        <a href="../pages/partners.html">Partners</a>
+        <a href="../index.html">Website</a>
+      </nav>
+      <a class="header-cta" href="../downloads/chinacare-navigator-bp.pptx" download>
+        <span>下载 PPT</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12"></path><path d="m7 10 5 5 5-5"></path><path d="M5 21h14"></path></svg>
+      </a>
+    </header>
+    <main class="report-layout">
+      <aside class="report-rail">
+        <p class="eyebrow">Report</p>
+        <h1>财务模型</h1>
+        <p>产品单价、成本结构、单单经济、盈亏平衡和 12 个月预测。</p>
+        <a class="button primary report-download" href="../downloads/chinacare-navigator-bp.pptx" download>
+          <span>下载 BP PPTX</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12"></path><path d="m7 10 5 5 5-5"></path><path d="M5 21h14"></path></svg>
+        </a>
+      </aside>
+      <article class="report-content">
+        <h2>ChinaCare Navigator 财务模型 v1.0</h2>
+<p>更新日期：2026-06-04</p>
+<h3>1. 模型口径</h3>
+<p>本模型仅测算平台服务收入，不把医院医疗费计入平台收入。医院体检、检查、药品、住院、治疗、手术等费用原则上由客户直接支付给医疗机构。</p>
+<p>核心财务逻辑：</p>
+<blockquote><p>平台不是靠医疗费抽佣赚钱，而是靠导医、翻译、文件、预约、陪诊、企业健康管理和医院运营外包赚钱。</p></blockquote>
+<h3>2. 产品收入假设</h3>
+<div class="report-table-wrap"><table><thead><tr><th>产品</th><th>单价区间</th><th>基准单价</th><th>直接成本</th><th>基准毛利率</th><th>说明</th></tr></thead><tbody><tr><td>Basic Consultation</td><td>USD 29-99</td><td>USD 69</td><td>USD 5-15</td><td>80%-90%</td><td>筛选线索，远程交付</td></tr><tr><td>Medical File Pack</td><td>USD 199-499</td><td>USD 299</td><td>USD 60-120</td><td>60%-80%</td><td>AI 辅助 + 人工审核</td></tr><tr><td>Specialist Visit</td><td>USD 399-899</td><td>USD 499</td><td>USD 150-250</td><td>50%-70%</td><td>含预约协调</td></tr><tr><td>Checkup Starter</td><td>USD 499-1,500</td><td>USD 899</td><td>USD 250-450</td><td>45%-65%</td><td>标准化程度高</td></tr><tr><td>Insurance Pack</td><td>USD 199-599</td><td>USD 399</td><td>USD 80-160</td><td>60%-80%</td><td>文件清单和整理</td></tr><tr><td>Full Visit Companion</td><td>USD 1,500-3,000</td><td>USD 2,000</td><td>USD 800-1,200</td><td>40%-60%</td><td>线下人力重</td></tr><tr><td>VIP Case Management</td><td>USD 5,000-8,000</td><td>USD 5,000</td><td>USD 2,000-3,000</td><td>40%-60%</td><td>高客单、高风险</td></tr></tbody></table></div>
+<h3>3. 成本结构</h3>
+<h4>3.1 固定成本</h4>
+<div class="report-table-wrap"><table><thead><tr><th>成本项</th><th>MVP 轻量测试</th><th>正式测试</th><th>规模化早期</th></tr></thead><tbody><tr><td>Founder/BD</td><td>RMB 0-20,000</td><td>RMB 20,000-40,000</td><td>RMB 40,000+</td></tr><tr><td>Case manager</td><td>RMB 15,000</td><td>RMB 30,000-60,000</td><td>RMB 100,000+</td></tr><tr><td>医学翻译/审核</td><td>RMB 8,000-20,000</td><td>RMB 25,000-60,000</td><td>RMB 100,000+</td></tr><tr><td>兼职陪诊管理</td><td>按单</td><td>RMB 20,000</td><td>RMB 50,000+</td></tr><tr><td>广告和获客</td><td>RMB 20,000-50,000</td><td>RMB 80,000-200,000</td><td>RMB 300,000+</td></tr><tr><td>法务合规</td><td>RMB 5,000-20,000</td><td>RMB 20,000-50,000</td><td>RMB 80,000+</td></tr><tr><td>AI/OCR/CRM/工具</td><td>RMB 3,000-10,000</td><td>RMB 12,000-50,000</td><td>RMB 100,000+</td></tr><tr><td>财务/支付/杂费</td><td>RMB 5,000-15,000</td><td>RMB 20,000-40,000</td><td>RMB 80,000+</td></tr><tr><td>合计</td><td>RMB 56,000-150,000</td><td>RMB 227,000-500,000</td><td>RMB 850,000+</td></tr></tbody></table></div>
+<h4>3.2 变动成本</h4>
+<div class="report-table-wrap"><table><thead><tr><th>成本项</th><th>计费方式</th><th>备注</th></tr></thead><tbody><tr><td>医学翻译</td><td>按页/按病例</td><td>AI 降低初稿成本，但仍需审核</td></tr><tr><td>陪诊译员</td><td>半天/全天/小时</td><td>城市和语种差异大</td></tr><tr><td>医生顾问</td><td>按病例</td><td>高风险复杂病例 L3 审核</td></tr><tr><td>支付手续费</td><td>2.5%-4.5%</td><td>Stripe/PayPal/信用卡等</td></tr><tr><td>退款/争议</td><td>按订单</td><td>服务协议要明确节点</td></tr><tr><td>客服沟通</td><td>按 case manager 工时</td><td>复杂病例会吞噬利润</td></tr></tbody></table></div>
+<h3>4. 单单经济模型</h3>
+<h4>4.1 Medical File Pack</h4>
+<div class="report-table-wrap"><table><thead><tr><th>项目</th><th>金额</th></tr></thead><tbody><tr><td>收入</td><td>USD 299</td></tr><tr><td>AI/OCR/系统</td><td>USD 5</td></tr><tr><td>翻译/审核</td><td>USD 50</td></tr><tr><td>Case manager 工时</td><td>USD 25</td></tr><tr><td>支付手续费</td><td>USD 12</td></tr><tr><td>直接成本</td><td>USD 92</td></tr><tr><td>单单毛利</td><td>USD 207</td></tr><tr><td>毛利率</td><td>69%</td></tr></tbody></table></div>
+<h4>4.2 Checkup Starter</h4>
+<div class="report-table-wrap"><table><thead><tr><th>项目</th><th>金额</th></tr></thead><tbody><tr><td>收入</td><td>USD 899</td></tr><tr><td>Case manager 工时</td><td>USD 120</td></tr><tr><td>文件整理</td><td>USD 60</td></tr><tr><td>陪诊半天成本</td><td>USD 180</td></tr><tr><td>支付手续费</td><td>USD 36</td></tr><tr><td>客服/系统</td><td>USD 20</td></tr><tr><td>直接成本</td><td>USD 416</td></tr><tr><td>单单毛利</td><td>USD 483</td></tr><tr><td>毛利率</td><td>54%</td></tr></tbody></table></div>
+<h4>4.3 Full Visit Companion</h4>
+<div class="report-table-wrap"><table><thead><tr><th>项目</th><th>金额</th></tr></thead><tbody><tr><td>收入</td><td>USD 2,000</td></tr><tr><td>陪诊 1-2 天</td><td>USD 500-900</td></tr><tr><td>文件翻译</td><td>USD 150</td></tr><tr><td>Case manager 工时</td><td>USD 250</td></tr><tr><td>本地协调</td><td>USD 100</td></tr><tr><td>支付手续费</td><td>USD 80</td></tr><tr><td>直接成本</td><td>USD 1,080-1,480</td></tr><tr><td>单单毛利</td><td>USD 520-920</td></tr><tr><td>毛利率</td><td>26%-46%</td></tr></tbody></table></div>
+<p>结论：Full Visit Companion 客单高，但不是最高毛利产品。真正的利润来自 Medical File Pack、Insurance Pack、标准体检和 B2B。</p>
+<h3>5. 获客成本假设</h3>
+<div class="report-table-wrap"><table><thead><tr><th>渠道</th><th>线索成本</th><th>有效咨询成本</th><th>备注</th></tr></thead><tbody><tr><td>Google 英文搜索</td><td>USD 15-80</td><td>USD 80-300</td><td>竞争强，适合高客单</td></tr><tr><td>俄语 Telegram/Yandex</td><td>USD 5-40</td><td>USD 40-150</td><td>可通过代理降低成本</td></tr><tr><td>韩国社区/内容</td><td>USD 5-30</td><td>USD 30-120</td><td>适合测试，不宜重投</td></tr><tr><td>海外华人社群</td><td>USD 0-30</td><td>USD 20-100</td><td>信任更高但规模有限</td></tr><tr><td>LinkedIn/B2B</td><td>USD 30-150</td><td>USD 150-500</td><td>客单高，周期长</td></tr><tr><td>医院/企业转介绍</td><td>低</td><td>低</td><td>最有价值</td></tr></tbody></table></div>
+<h3>6. 月度盈亏平衡</h3>
+<p>汇率粗略按 USD 1 = RMB 7.2。</p>
+<h4>6.1 轻量测试</h4>
+<p>固定成本：RMB 80,000/月 平均服务收入：USD 800 = RMB 5,760 直接毛利率：55% 获客成本率：20% 贡献毛利率：35%</p>
+<p>盈亏平衡订单：</p>
+<p>RMB 80,000 / (RMB 5,760 * 35%) = 约 40 单/月</p>
+<h4>6.2 正式测试</h4>
+<p>固定成本：RMB 250,000/月 平均服务收入：USD 1,000 = RMB 7,200 直接毛利率：55% 获客成本率：25% 贡献毛利率：30%</p>
+<p>盈亏平衡订单：</p>
+<p>RMB 250,000 / (RMB 7,200 * 30%) = 约 116 单/月</p>
+<h3>7. 12 个月预测</h3>
+<h4>保守情景</h4>
+<div class="report-table-wrap"><table><thead><tr><th>月份</th><th>订单</th><th>平均收入</th><th>月收入</th><th>贡献毛利</th><th>结果</th></tr></thead><tbody><tr><td>1-3</td><td>10-25</td><td>USD 700</td><td>RMB 5万-13万</td><td>25%-35%</td><td>亏损</td></tr><tr><td>4-6</td><td>30-60</td><td>USD 800</td><td>RMB 17万-35万</td><td>30%-40%</td><td>接近打平</td></tr><tr><td>7-12</td><td>70-120</td><td>USD 900</td><td>RMB 45万-78万</td><td>35%-45%</td><td>小幅盈利</td></tr></tbody></table></div>
+<h4>基准情景</h4>
+<div class="report-table-wrap"><table><thead><tr><th>月份</th><th>订单</th><th>平均收入</th><th>月收入</th><th>贡献毛利</th><th>结果</th></tr></thead><tbody><tr><td>1-3</td><td>20-40</td><td>USD 800</td><td>RMB 12万-23万</td><td>30%-40%</td><td>亏损/打平</td></tr><tr><td>4-6</td><td>60-100</td><td>USD 950</td><td>RMB 41万-68万</td><td>35%-45%</td><td>打平/盈利</td></tr><tr><td>7-12</td><td>120-220</td><td>USD 1,100</td><td>RMB 95万-174万</td><td>40%-50%</td><td>盈利</td></tr></tbody></table></div>
+<h4>进取情景</h4>
+<div class="report-table-wrap"><table><thead><tr><th>月份</th><th>订单</th><th>平均收入</th><th>月收入</th><th>条件</th></tr></thead><tbody><tr><td>1-3</td><td>40-60</td><td>USD 900</td><td>RMB 26万-39万</td><td>强 B2B 或代理渠道</td></tr><tr><td>4-6</td><td>120-180</td><td>USD 1,100</td><td>RMB 95万-143万</td><td>医院资源稳定</td></tr><tr><td>7-12</td><td>250-400</td><td>USD 1,200</td><td>RMB 216万-346万</td><td>多城市履约和 AI 工作台成型</td></tr></tbody></table></div>
+<h3>8. 人效指标</h3>
+<div class="report-table-wrap"><table><thead><tr><th>阶段</th><th>每名 case manager/月有效咨询</th><th>付费订单</th><th>到院订单</th></tr></thead><tbody><tr><td>MVP</td><td>30-50</td><td>5-10</td><td>2-5</td></tr><tr><td>SOP 成熟</td><td>80-120</td><td>20-35</td><td>8-15</td></tr><tr><td>AI 工作台成熟</td><td>150+</td><td>35-50</td><td>15-25</td></tr></tbody></table></div>
+<h3>9. 关键财务风险</h3>
+<ul><li>广告获客质量低，咨询量高但付费低；</li><li>免费咨询太多，占用 case manager；</li><li>复杂病例反复沟通但不付费；</li><li>陪诊定价过低；</li><li>医院预约反复变更导致服务成本上升；</li><li>客户把平台当医生使用；</li><li>保险拒赔导致投诉；</li><li>医疗纠纷拖累运营。</li></ul>
+<h3>10. 控制策略</h3>
+<ul><li>每个病例先收 Basic Consultation 或 Medical File Pack；</li><li>陪诊按半天/全天/超时收费；</li><li>复杂病例先收费整理资料，再进入医院协调；</li><li>明确医院费与平台费分离；</li><li>建立拒接清单；</li><li>B2B 和转介绍优先，降低获客成本；</li><li>用 AI 工作台减少重复劳动；</li><li>所有医疗判断转医院或医生。</li></ul>
+<h3>11. 融资需求初步建议</h3>
+<p>若进行天使轮，建议融资用途：</p>
+<div class="report-table-wrap"><table><thead><tr><th>用途</th><th>占比</th></tr></thead><tbody><tr><td>团队和运营</td><td>35%</td></tr><tr><td>获客测试</td><td>25%</td></tr><tr><td>AI 工作台和 CRM</td><td>20%</td></tr><tr><td>法务合规</td><td>10%</td></tr><tr><td>医院 BD 和差旅</td><td>10%</td></tr></tbody></table></div>
+<p>最小可行资金：RMB 100万-200万，可支持 6-9 个月验证。 更稳妥资金：RMB 300万-500万，可支持 12 个月多市场测试。</p>
+      </article>
+    </main>
+    <script src="../script.js"></script>
+  </body>
+</html>
