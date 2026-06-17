@@ -33,6 +33,8 @@ Static landing page prototype and planning package for a multilingual internatio
   - `docs/pitch-outline.md`
   - `docs/quote-template.md`
   - `docs/service-agreement-outline.md`
+- Process knowledge base:
+  - `knowledge-base/README.md`
 - SEO helpers: `robots.txt`, `sitemap.xml`
 
 ## Public report links
